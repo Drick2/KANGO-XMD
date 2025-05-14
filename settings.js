@@ -16,32 +16,32 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~aV0ixRbI#s8uKlkm6koFVFCBq3HK0RmYlrTWEyJd8DpOKVMEPR3w' 
 //Enter your 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || '𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿' 
+global.botname = process.env.BOT_NAME || '🅳🆁🅸🅲🅺-🆇🅼🅳' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '233509977126' 
+global.ownernumber = process.env.OWNER_NUMBER || '256702476985' 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Hector Manuel' 
+global.ownername = process.env.OWNER_NAME || '🅻🅸🅻 🅳🆁🅸🅲🅺' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿" 
+global.packname = process.env.STICKER_PACK_NAME || "🅳🆁🅸🅲🅺-🆇🅼🅳" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "Hector" 
+global.author = process.env.STICKER_AUTHOR_NAME || "🅻🅸🅻 🅳🆁🅸🅲🅺" 
 
 //----------------------[ TIMEZONE ]--------------------//
 
-global.timezones = process.env.TIMEZONE || "Africa/Accra" 
+global.timezones = process.env.TIMEZONE || "Africa/Kampala" 
 //Don't edit this if you don't know!
 
 //----------------[ GITHUB DATABASE ]-----------------//
@@ -58,13 +58,13 @@ global.plink = process.env.PLINK || "https://youtube.com/@official_manuel"
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "> ©𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿"
+global.wm = process.env.GL_WM || "> ©🅳🆁🅸🅲🅺-🆇🅼🅳"
 
 //---------------------[ REPLIES ]-----------------------//
 
 global.mess = { 
   done: '*Done*', 
-  success: '> © 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿', 
+  success: '> © 🅳🆁🅸🅲🅺-🆇🅼🅳', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
